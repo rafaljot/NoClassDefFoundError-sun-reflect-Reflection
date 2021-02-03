@@ -8,4 +8,4 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
 
-Just put this class file in WEB-INF/classes/sun/reflection directory
+Just put this Reflection.class file in WEB-INF/classes/sun/reflection directory
