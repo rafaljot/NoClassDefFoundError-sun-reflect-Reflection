@@ -1,5 +1,6 @@
-This is simple workoround for java.lang.NoClassDefFoundError: sun/reflect/Reflection 
-Typicaly after upgrade to Java 11, Tomcat 9.
+This is simple workoround for java.lang.NoClassDefFoundError: sun/reflect/Reflection .<br>
+
+Usually occurs after upgrading to Java 11 Tomcat 9.
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.apacheDirectoryServerContainer': Invocation of init method failed; nested exception is **java.lang.NoClassDefFoundError: sun/reflect/Reflection**
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1514)
